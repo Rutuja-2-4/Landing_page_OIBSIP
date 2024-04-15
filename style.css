@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #abc9ea;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #0a0b0d;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #b6b2c9;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #6f7570;
+    color: rgb(4, 4, 4);
+  }
+  
+  /* Add some space between the links */
+  .navbar a + a {
+    margin-left: 20px;
+  }
+  
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hero h2 {
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  .hero .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .artist-bio {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+  }
+  
+  .artist-bio img {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  
+  .artist-bio .bio-text {
+    flex: 1;
+  }
+  
+  .artist-bio .bio-text h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .artist-bio .bio-text p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  .gallery {
+    padding: 50px 0;
+    background-color: #abc9ea;
+  }
+  
+  .gallery h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .grid-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .grid-item p {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #b6b2c9 ;
+  }
+  
+  .feedback-heading {
+    margin-bottom: 20px;
+  }
+  
+  .feedback-box {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .feedback-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .contact {
+    position: relative; /* Position relative to allow absolute positioning of content */
+    background-color: #abc9ea; /* Match the background color */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+  }
+  
+  .contact h3 {
+    font-size: 2em; /* Adjust font size */
+    margin-bottom: 20px; /* Adjust margin for spacing */
+    color: #333; /* Match text color */
+  }
+  
+  .contact p {
+    font-size: 1.2em; /* Adjust font size */
+    color: #666; /* Match text color */
+    margin: 0; /* Remove default margin */
+    position: absolute; /* Position absolutely */
+    bottom: 20px; /* Adjust vertical position as needed */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+  
+  
+  /* Responsive Design */
+  
+  @media only screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5em;
+    }
+  
+    .artist-bio {
+      flex-direction: column;
+      align-items: center;
+      background-color: #706799;
+    }
+}
+  
+/* Style for the end section */
+.end {
+  background-color: rgb(43, 42, 42);
+  color: white;
+  padding: 10px 0; /* Adjust padding as needed */
+  /*text-align: center;*/
+}
+
+/* Style for the last-text div */
+.end .last-text p {
+  margin: 0;
+}
+
+/* Style for the top div */
+.end .top {
+  margin-top: 10px; /* Adjust margin as needed */
+}
+
